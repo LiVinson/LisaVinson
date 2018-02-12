@@ -1,14 +1,27 @@
-.navbar{
+/* Navbar */
+
+/* .navbar{
     margin-bottom:0px;
+} */
+
+/* Panel 1 */
+
+/* .row1{ */
+/* 
 }
 
+.about{
+
+} */
 .panel1{
-    background-image: url("../images/kevin-bhagat-425897.jpg");
+      background-image: url("../images/kevin-bhagat-425897.jpg");
     height: 80vh;
     background-size: cover;
     background-position: center center;
     
 }
+
+
 
 .footer{
     /* position:absolute;
