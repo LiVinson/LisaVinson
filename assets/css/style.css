@@ -1,10 +1,23 @@
 /* Navbar */
 
 .about{
-    border: solid 1px red;
+    
+    background-color:#D8D8D8
 } 
+
+#about2{
+    color: #ff751a;
+}
+
+#about3{
+    color:#FFFFFF;
+}
+
+#projects{
+    margin-bottom:15px;
+}
 .panel1{
-      background-image: url("../images/kevin-bhagat-425897.jpg");
+    background-image: url("../images/kevin-bhagat-425897.jpg");
     height: 80vh;
     background-size: cover;
     background-position: center center;
@@ -19,6 +32,10 @@
 .panelHeader{
     margin:0;
 }
+
+
+
+
 .footer{
     /* position:absolute;
     bottom: 0; */
