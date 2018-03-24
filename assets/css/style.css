@@ -1,25 +1,45 @@
 /* Navbar */
 
+nav {
+    z-index: 2;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color:transparent;
+
+}
+.menu-links {
+    color: #FC7307;
+}
 
 /* Header Panel with Image */
 .panel1 {
-    border: solid red 1px;
+    /* border: solid red 1px; */
     padding-top:0px;
     padding-bottom:0px;
     height: 90vh;
 }
 
 .headerDiv{
-    background-image: url("../images/jesus-kiteque-224069v2.jpg");
+    background-image: url("../images/computer-backdrop.jpg");
     height: 90vh;
     background-size: cover;
     background-position: center center;
-}
+    display:flex;
+    align-items: center;
 
+}
+.headerText{
+    position:relative;
+    left:40px;
+    font-family: 'Oleo Script', cursive;
+    font-size:40px;
+    color: #FC7307
+}
 /* Main Section Panels */
 
 main {
-    background-color:#fff3e0;
+    background-color:#D4E4F7;
 }
 .panel2, .panel3, .panel4 {
     border: solid blue 1px;
