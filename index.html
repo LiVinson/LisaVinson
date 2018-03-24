@@ -7,6 +7,10 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="assets/css/style.css" media="screen,projection" />
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,18 +20,17 @@
     <!-- Navbar -->
 
 
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Logo</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
+    <nav class="z-depth-0">
+        <div class="nav-wrapper ">
+            <ul id="nav-mobile" class="right">
                 <li>
-                    <a href="sass.html">About Me</a>
+                    <a  class="menu-links" href="#about">About</a>
                 </li>
-                <li>
-                    <a href="badges.html">Projects</a>
+                <li class="menu-links">
+                    <a  class="menu-links" href="#projects">Projects</a>
                 </li>
-                <li>
-                    <a href="collapsible.html">Contact</a>
+                <li class="menu-links">
+                    <a  class="menu-links" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -37,6 +40,11 @@
     <div class="section panel1">
         <div class="row">
             <div class="col s12 headerDiv">
+                <div class="headerText">
+
+                        <div>Welcome! I'm Lisa Vinson.</div>
+                        <div>I am <span>a Software Developer</span> in Orlando, FL.</div>
+                </div>
 
             </div>
             <!-- <div class="col s5">
@@ -81,7 +89,7 @@
 
 
         <div class="divider"></div>
-        <div class="section panel3">
+        <div class="section panel3" id="projects">
             <div class="section-header center">
                 <h1>Projects</h1>
             </div>
@@ -156,7 +164,7 @@
         </div>
 
         <div class="divider"></div>
-        <div class="section panel3">
+        <div class="section panel3" id="contact">
             <div class="section-header">
                 <h1>Contact</h1>
             </div>
