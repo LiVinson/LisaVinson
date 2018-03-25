@@ -1,76 +1,156 @@
 /* Navbar */
+* {
+    font-family: 'Molengo', sans-serif;
+}
 
+h1 {
+    font-family: 'Lobster', cursive;
+    color:  #00529b;
+    /* background-color:#D4E4F7; */
+    /* border: solid red 1px; */
+    margin-top:0px;
+
+}
 nav {
     z-index: 2;
     position: absolute;
     left: 0px;
     top: 0px;
     background-color:transparent;
+    padding-left:30px;
 
 }
+
+nav ul {
+    margin-right:30px;
+}
+
 .menu-links {
-    color: #FC7307;
+    color: #00529b;
 }
-
+/* ---------------------------------------------- */
 /* Header Panel with Image */
+
 .panel1 {
     /* border: solid red 1px; */
     padding-top:0px;
     padding-bottom:0px;
-    height: 90vh;
+    height: 60vh;
 }
 
 .headerDiv{
     background-image: url("../images/computer-backdrop.jpg");
-    height: 90vh;
+    height: 100%;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
+    /* opacity: .8; */
     display:flex;
     align-items: center;
+    justify-content:center;
 
+}
+
+#welcome{
+    /* color:#FC7307; */
+    font-size:90px;
+    /* font-family: 'Lobster', cursive; */
+    margin-bottom:0px;
+
+}
+
+.name{
+    font-size:90px;
 }
 .headerText{
     position:relative;
-    left:40px;
-    font-family: 'Oleo Script', cursive;
+    right:20%;
+    /* top: 30px; */
     font-size:40px;
-    color: #FC7307
+    color:  #FC7307;
+    height: fit-content
+
+
 }
+ .headerText p {
+
+    font-family: 'Lobster', cursive;
+
+} 
+
+#typewriter-text{
+    color:#FC7307;
+    /* font-family: 'Lobster', cursive; */
+}
+
+.carot {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+  /* ------------------------------------------------------------ */
 /* Main Section Panels */
 
 main {
-    background-color:#D4E4F7;
+    /* background-color: #FFFAF0; */
+    border-top: solid 15px #FC7307;
+
 }
-.panel2, .panel3, .panel4 {
-    border: solid blue 1px;
-    /* height: 90vh; */
+.panel2, .panel3, .panel4 .panel5 {
+    /* border: solid blue 1px; */
+   padding-bottom:0px;
 }
 
-.panel2Row{
-    padding-bottom:20px;
+.panel2{
+    /* padding-bottom:20px; */
+    /* background-color:#00529b; */
+    /* color:darkgray; */
+}
+
+#aboutHeader {
+    /* color: #FC7307; */
 }
 
 .aboutLeftCol{
     /* border: solid 1px purple; */
     text-align: justify;
-    padding-right:10px;
+    margin-top:0;
+
+    /* padding-right:10px; */
 
 }
 
 .aboutRightCol{
     /* border: solid 1px purple; */
     text-align: justify;
-    padding-left:10px;
-}
-
-.panel3Row {
-padding-left:100px;
-padding-right:100px;
+    /* padding-left:10px; */
 }
 
 
+.about-text-left{
+    margin-top:0px;
+}
+
+.panel3 {
+    /* background-color:#FC7307; */
+    padding-bottom:20px;
+    /* border-top:5px solid #00529b; */
+
+}
+
+.panel5 {
+    background-color:lightgray; 
+/* margin-bottom:20px;
+    border-top:5px solid #00529b;  */
+
+}
 .projectCards{
-    border:solid 1px green;
+    border:solid 1px #FC7307;
     /* margin-left:25px; */
 }
 
@@ -79,3 +159,7 @@ padding-right:100px;
     text-align: center;
 }
 
+.page-footer{
+    background-color:#00529b;
+    /* border-top: solid 10px #FC7307; */
+}
