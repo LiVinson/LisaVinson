@@ -106,22 +106,12 @@ main {
    padding-bottom:0px;
 }
 
-.panel2{
-    /* padding-bottom:20px; */
-    /* background-color:#00529b; */
-    /* color:darkgray; */
-}
-
-#aboutHeader {
-    /* color: #FC7307; */
-}
 
 .aboutLeftCol{
     /* border: solid 1px purple; */
     text-align: justify;
     margin-top:0;
 
-    /* padding-right:10px; */
 
 }
 
@@ -152,6 +142,18 @@ main {
 .projectCards{
     border:solid 1px #FC7307;
     /* margin-left:25px; */
+}
+.card-content{
+    border-top: 5px solid #00529b;
+}
+.card-title{
+    color: #00529b;
+}
+.app-card-buttons{
+    margin-top:5px;
+}
+.repoBtn{
+    color: #00529b;
 }
 .icons{
     /* width:50%; */
