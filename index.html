@@ -17,14 +17,11 @@
 </head>
 
 <body>
+
     <!-- Navbar -->
-
-
-    <nav class="z-depth-0">
-        <div class="nav-wrapper ">
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-                <i class="material-icons">menu</i>
-            </a>
+    <nav class="z-depth-0" role="navigation">
+        <div class="nav-wrapper">
+            <!-- <a id="logo-container" href="#" class="brand-logo">Logo</a> -->
             <ul class="left hide-on-med-and-down">
                 <li>
                     <a class="menu-links" href="#about">About</a>
@@ -35,51 +32,82 @@
                 <li class="menu-links">
                     <a class="menu-links" href="#contact">Contact</a>
                 </li>
+                <li class="menu-links">
+                        <a class="menu-links" href="images/Lisa_Vinson_Resume.pdf" download>Resume</a>
+                    </li>
             </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+                <li>
+                    <a class="menu-links" href="#about">About</a>
+                </li>
+                <li class="menu-links">
+                    <a class="menu-links" href="#projects">Projects</a>
+                </li>
+                <li class="menu-links">
+                    <a class="menu-links" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
         </div>
-
     </nav>
+    <!-- Navbar End -->
 
+    <!-- Panel 1 - Header Image with Name -->
     <div class="section panel1">
         <!-- <div class="row"> -->
         <div class="headerDiv">
-            <span class="headerText">
-                <h1 class="name">Lisa Vinson<span>      </span></h1>
-                <p>
+            <span class="headerText center">
+                <p class="name flow-text">Lisa Vinson
+                    <span> </span>
+                </p>
+                <p class="typewriter-para flow-text">
                     <span id="typewriter-text"></span>
                 </p>
             </span>
         </div>
     </div>
+    <!-- Photo by Lukas Blazek on Unsplash -->
+
+    <!-- Panel 2 - About Section -->
     <main>
         <div class="section panel2">
             <div class="container">
-                <div class="section-header center">
+                <div class="section-header">
                     <h1 id="aboutHeader">About</h1>
                 </div>
                 <div class="row panel2Row">
-                    <div class="col s6 aboutLeftCol">
-                        <p class="flow-text about-text-left">I am a full stack developer who loves to learn for the sake of learning. While my background in teaching
+                    <div class="col s12 m6 aboutLeftCol">
+                        <p class="flow-text about-text-left">I am a full stack developer who is always learning something new: whether it's a new framework or a new guitar chord. While my background in teaching
                             and HR may seem very different from programming on the surface, my passion for all three have
                             been rooted in a desire to help people figure out streamlined solutions to complex problems.
-                            As I continue to grow my knowledge, I am looking for software developer opportunities in the
+                            As I continue to grow my knowledge, I am open to software development opportunities in the
                             Orlando, FL area that emphasize a range of programming tools to create meaningful software for
                             users.
                         </p>
                     </div>
-                    <div class="col s6 aboutRightCol">
+                    <div class="col s12 m6 aboutRightCol">
                         <img class="responsive-img z-depth-1" src="assets/images/photographer-image.jpg" alt="Lisa taking a photograph" id="about-image">
                         <p class="flow-text about-text-right">In my free time, I enjoy my fair share of both outdoor and indoor activities. I love to hike, kayak,
-                            and take road trips to any place with delicious food - so far, St. Louis has the best barbecue!</p>
+                            and take road trips to any place with delicious food. I am also an a (very) amateur guitar player, photographer and newly converted anime fan.</p>
                     </div>
+                    
+
                 </div>
+                <div class="divider"></div>
+                <br>
+              
             </div>
         </div>
 
+
+        <!-- Panel 3 - Project - Row 1  -->
         <div class="section panel3">
             <div class="container">
-                <!-- <div class="divider"></div> -->
-                <div class="section-header center">
+
+                <div class="section-header">
                     <h1 id="projects">Projects</h1>
                 </div>
                 <div class="row panel3Row">
@@ -90,7 +118,7 @@
                                 <img class="activator" src="assets/images/nyt-articles.JPG">
                             </div>
                             <div class="card-content">
-                                <span class="card-title activator">New York Times Scrubber
+                                <span class="card-title activator center">New York Times Scrubber
                                     <i class="material-icons right">more_vert</i>
                                 </span>
                                 <p class="card-front-text">
@@ -101,6 +129,8 @@
                                     <a href="https://github.com/LiVinson/NYT-Scrubber" target="_blank" class="grey lighten-2 btn repoBtn">View Repo</a>
                                 </div>
                             </div>
+
+                            <!-- Card Back -->
                             <div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4">NYT Scrubber
                                     <i class="material-icons right">close</i>
@@ -120,6 +150,7 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- CARD 2 -->
                     <div class="col m4 s12 cardCol2">
                         <div class="card projectCards projCard1 hoverable">
@@ -131,7 +162,8 @@
                                     <i class="material-icons right">more_vert</i>
                                 </span>
                                 <p class="card-front-text">
-                                    Single page application with custom ORM that allows users to add new burgers, adding them to the Order Up List, and "devour" burgers with a click, adding them to the Eaten list.                                </p>
+                                    Single page application with custom ORM that allows users to add new burgers, adding them to the Order Up List, and "devour"
+                                    burgers with a click, adding them to the Eaten list. </p>
                                 <div class="app-card-buttons">
                                     <a href="https://blooming-thicket-67396.herokuapp.com/" target="_blank" class="orange darken-2 btn websiteBtn">View Site</a>
                                     <a href="https://github.com/LiVinson/good-burger" target="_blank" class="grey lighten-2 btn repoBtn">View Repo</a>
@@ -155,6 +187,7 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- CARD 3 -->
                     <div class="col m4 s12 cardCol3">
                         <div class="card projectCards projCard1 hoverable">
@@ -166,7 +199,8 @@
                                     <i class="material-icons right">more_vert</i>
                                 </span>
                                 <p class="card-front-text">
-                                    Which NBA superstar are you most like? Take this 10 question survey to get the name, match score, and a gif of your NBA doppelganger!  </p>
+                                    Which NBA superstar are you most like? Take this 10 question survey to get the name, match score, and a gif of your NBA doppelganger!
+                                </p>
                                 <div class="app-card-buttons">
                                     <a href="https://sheltered-citadel-34944.herokuapp.com/" target="_blank" class="orange darken-2 btn websiteBtn">View Site</a>
                                     <a href="https://github.com/LiVinson/nba_friend_finder" target="_blank" class="grey lighten-2 btn repoBtn">View Repo</a>
@@ -196,15 +230,9 @@
 
         </div>
 
-        <!-- <div class="divider"></div> -->
         <div class="section panel4">
-            <div class="divider"></div>
-
             <div class="container">
-                <!-- <div class="divider"></div> -->
-                <!-- <div class="section-header center">
-                                <h1 id="projects">Projects</h1>
-                            </div> -->
+
                 <div class="row panel4Row">
                     <!-- CARD 4 -->
                     <div class="col m4 s12 cardCol1">
@@ -230,14 +258,14 @@
                                 <p>
                                     <b> Technology Used:</b>
                                     <ul class="collection">
-                                        
-                                        
+
+
                                         <li class="collection-item">JavaScript</li>
                                         <li class="collection-item">MySQL</li>
 
-                                        <li class="collection-item">NPM Packages:</li>
-                                        <li class="collection-item">   NPM Packages:</li>
-                                        <li class="collection-item">   NPM Packages:</li>
+                                        <li class="collection-item"><b>NPM Packages:</b></li>
+                                        <li class="collection-item"> Inquirer</li>
+                                        <li class="collection-item"> Console Table</li>
 
                                     </ul>
 
@@ -256,7 +284,8 @@
                                     <i class="material-icons right">more_vert</i>
                                 </span>
                                 <p class="card-front-text">
-                                    Fun browser game where players try to match the number displayed by clicking the correct combination of crystals, without going over.                                  </p>
+                                    Fun browser game where players try to match the number displayed by clicking the correct combination of crystals, without
+                                    going over. </p>
                                 <div class="app-card-buttons">
                                     <a href="https://livinson.github.io/crystal-clicker/" target="_blank" class="orange darken-2 btn websiteBtn">View Site</a>
                                     <a href="https://github.com/LiVinson/crystal-clicker" target="_blank" class="grey lighten-2 btn repoBtn">View Repo</a>
@@ -288,7 +317,8 @@
                                     <i class="material-icons right">more_vert</i>
                                 </span>
                                 <p class="card-front-text">
-                                    An NBA edition gif display site that dynamically displays gifs of the NBA superstar chosen by users by querying the Giphy API site.                                </p>
+                                    An NBA edition gif display site that dynamically displays gifs of the NBA superstar chosen by users by querying the Giphy
+                                    API site. </p>
                                 <div class="app-card-buttons">
                                     <a href="https://livinson.github.io/gifCreator/" target="_blank" class="orange darken-2 btn websiteBtn">View Site</a>
                                     <a href="https://github.com/LiVinson/gifCreator" target="_blank" class="grey lighten-2 btn repoBtn">View Repo</a>
@@ -324,16 +354,15 @@
         <div class="section panel5">
             <div class="container">
 
-
-                <div class="section-header center">
+                <div class="section-header">
                     <h1 id="contact">Contact</h1>
                 </div>
                 <div class="row panel5Row">
-                    <div class="col s7">
-                        <p class="flow-text about-text">
+                    <div class="col s12 m7">
+                        <p class="flow-text contact-text">
                             Whether you are looking to discuss a job opportunity, looking for a developer to create a website for your small business,
                             or a fellow programmer looking to collaborate on your next project, feel free to reach out at
-                            <span class="contact-info">Contact@LisaVinson.com</span>. You can also find me on LinkedIn or check out more of my work
+                            <span class="contact-info">contact@LisaVinson.com</span>. You can also find me on LinkedIn or check out more of my work
                             on Github.</p>
 
 
@@ -341,32 +370,32 @@
 
                     <!-- </div> -->
                     <!-- <div class="row panel5Row"> -->
-                    <div class="col s5">
+                    <div class="col s12 m5 ">
                         <div class="icons">
-                            <div class="iconDiv center-align">
-                                <a href="https://github.com/LiVinson" target="_blank">
+                            <div class="iconDiv center ">
+                                <a href="https://github.com/LiVinson" target="_blank" >
                                     <br>
-                                    <img class="github" src="assets/images/githubicon.png" alt="Github account Link">
+                                    <img class="github hoverable" src="assets/images/githubicon.png" alt="Github account Link">
                                     <br>
                                     <span>Github.com/LiVinson</span>
                                 </a>
                             </div>
-                            <div class="iconDiv center-align">
+                            <div class="iconDiv center">
                                 <a href="https://www.linkedin.com/in/lisavinson1" target="_blank">
                                     <br>
-                                    <img class="linkedin" src="assets/images/linkedicon.png" alt="LinkedIn account Link">
+                                    <img class="linkedin hoverable" src="assets/images/linkedicon.png" alt="LinkedIn account Link">
                                     <br>
                                     <span>linkedin.com/in/lisavinson1</span>
-                                   
+
                                 </a>
                             </div>
-                            <div class="iconDiv center-align">
+                            <div class="iconDiv center">
                                 <a href="mailto:contact@lisavinson.com?subject=Your Portfolio" target="_blank">
                                     <br>
-                                    <img class="email" src="assets/images/email.svg.png" alt="email icon">
+                                    <img class="email hoverable" src="assets/images/email.svg.png" alt="email icon">
                                     <br>
                                     <span>contact@LisaVinson.com</span>
-  
+
                                 </a>
                             </div>
                         </div>
@@ -382,13 +411,16 @@
     <footer class="page-footer">
         <div class="footer-copyright">
             <div class="container center">
-                ©Lisa Vinson 2018 
+                ©Lisa Vinson 2018
             </div>
         </div>
     </footer>
     <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <script type="text/javascript" src="assets/js/materialize.min.js"></script>
     <script type="text/javascript" src="assets/js/javascript.js"></script>
+
 
 </body>
 
