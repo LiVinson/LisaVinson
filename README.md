@@ -1,1 +1,3 @@
-# portfolio2018
+# Project Portfolio
+
+A project portfolio utilizing Materialize framework.
