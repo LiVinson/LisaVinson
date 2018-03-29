@@ -147,11 +147,24 @@ h1 {
     text-align:center;
 }
 
+.card-reveal{
+    overflow:hidden!important;
+    color: #00529b;
+}
+
 .app-card-buttons{
     margin-top:5px;
 }
 .repoBtn{
     color: #00529b;
+}
+
+.collection .collection-item{
+    border-bottom:1px solid #FC7307;
+}
+
+.collection{
+    border:1px solid #FC7307;
 }
 
 /* ----Panel 5 -Contact ------ */
