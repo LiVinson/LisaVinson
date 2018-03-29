@@ -1,16 +1,12 @@
-/* Navbar */
 * {
     font-family: 'Molengo', sans-serif;
 }
 
-h1 {
-    font-family: 'Lobster', cursive;
-    color:  #00529b;
-    /* background-color:#D4E4F7; */
-    /* border: solid red 1px; */
-    margin-top:0px;
-
+.center {
+    margin: auto;
 }
+/* Navbar */
+
 nav {
     z-index: 2;
     position: absolute;
@@ -18,64 +14,58 @@ nav {
     top: 0px;
     background-color:transparent;
     padding-left:30px;
-
-}
-
-nav ul {
-    margin-right:30px;
 }
 
 .menu-links {
     color: #00529b;
+    font-size:18px;
 }
+
 /* ---------------------------------------------- */
-/* Header Panel with Image */
+
+/* --- Panel1: Image with Name --- */
 
 .panel1 {
     /* border: solid red 1px; */
     padding-top:0px;
     padding-bottom:0px;
-    height: 60vh;
+    height: fit-content;
 }
 
 .headerDiv{
-    background-image: url("../images/computer-backdrop.jpg");
+    background: 
+    linear-gradient(
+        rgba(231, 227, 227, 0.85), 
+        rgba(231, 227, 227, 0.85)
+      ),
+    /* url("../images/craig-garner-202-unsplash.jpg"); */
+    url("../images/lukas-blazek-320606-unsplash.jpg");
     height: 100%;
     background-size: cover;
     background-position: center;
-    /* opacity: .8; */
     display:flex;
     align-items: center;
-    justify-content:center;
-
 }
 
-#welcome{
-    /* color:#FC7307; */
-    font-size:90px;
-    /* font-family: 'Lobster', cursive; */
-    margin-bottom:0px;
-
+.headerText{
+    font-size:40px;
+    height: fit-content;
+    width: 100%;
 }
 
 .name{
     font-size:90px;
-}
-.headerText{
-    position:relative;
-    right:20%;
-    /* top: 30px; */
-    font-size:40px;
-    color:  #FC7307;
-    height: fit-content
-
-
-}
- .headerText p {
-
+    margin-bottom:5px;
     font-family: 'Lobster', cursive;
+    color:  #00529b;
+}
 
-} 
+.typewriter-para{
+    margin-top:15px;
+    color:  #FC7307;
+    font-size:30px;
+
+}
 
 #typewriter-text{
     color:#FC7307;
@@ -106,13 +96,23 @@ main {
    padding-bottom:0px;
 }
 
+h1 {
+    font-family: 'Lobster', cursive;
+    color:  #00529b;
+    margin-top:0px;
+    text-align:center;
+ 
+}
 
+/* ----Panel 2 -About----- */
+
+#aboutHeader{
+    color:#FC7307;
+}
 .aboutLeftCol{
     /* border: solid 1px purple; */
     text-align: justify;
     margin-top:0;
-
-
 }
 
 .aboutRightCol{
@@ -126,37 +126,50 @@ main {
     margin-top:0px;
 }
 
+/* ----Panel 3 and 4 -Projects ------ */
+
 .panel3 {
-    /* background-color:#FC7307; */
+    background-color:#FC7307;
     padding-bottom:10px;
-    /* border-top:5px solid #00529b; */
-
 }
 
-.panel5 {
-    background-color:lightgray; 
-/* margin-bottom:20px;
-    border-top:5px solid #00529b;  */
-
+#projects{
+    color:lightgray;
 }
-.projectCards{
-    border:solid 1px #FC7307;
+
+.panel4 .projectCards{
+    border:solid 1px #00529b;
     /* margin-left:25px; */
 }
-.card-content{
-    border-top: 5px solid #00529b;
-}
+
 .card-title{
     color: #00529b;
+    text-align:center;
 }
+
 .app-card-buttons{
     margin-top:5px;
 }
 .repoBtn{
     color: #00529b;
 }
+
+/* ----Panel 5 -Contact ------ */
+
+.panel5 {
+    background-color:lightgray; 
+    
+}
+
+.contact-text{
+    margin-top:0px;
+}
+
+.contact-info{
+    color:#00529b;
+    font-weight: bold;
+}
 .icons{
-    /* width:50%; */
     display:flex;
     justify-content:space-between;
     margin:auto;
@@ -167,6 +180,7 @@ main {
     display:flex;
     justify-content:center;
     flex-direction:column;
+    color:#00529b;
 }
 
 .github,
@@ -174,16 +188,12 @@ main {
 .email {
     width: 64px;
     height: 64px;
-    /* margin-left: 5px;
-    box-sizing: content-box;
-    padding-bottom: 2px; */
 }
 
-.center {
-    text-align: center;
-}
+
 
 .page-footer{
     background-color:#00529b;
-    /* border-top: solid 10px #FC7307; */
+    border-top: solid 10px #FC7307;
+    margin-top:50px;
 }
