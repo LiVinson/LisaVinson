@@ -137,6 +137,10 @@ h1 {
     color:lightgray;
 }
 
+#studySmartImg{
+    border-bottom: solid 2px #00529b;
+}
+
 .panel4 .projectCards{
     border:solid 1px #00529b;
     /* margin-left:25px; */
