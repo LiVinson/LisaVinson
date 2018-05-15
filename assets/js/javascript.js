@@ -31,7 +31,6 @@ document.addEventListener('DOMContentLoaded', function (event) {
   }
   // start a typewriter animation for a text in the dataText array
   function StartTextAnimation(i) {
-    console.log("i inside of Start Text Animation:", i);
 
     // check if dataText[i] exists
     if (dataText[i] && i < dataText.length) {
