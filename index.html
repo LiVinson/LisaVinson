@@ -21,7 +21,9 @@
     <!-- Navbar -->
     <nav class="z-depth-0" role="navigation">
         <div class="nav-wrapper">
-            <!-- <a id="logo-container" href="#" class="brand-logo">Logo</a> -->
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
             <ul class="left hide-on-med-and-down">
                 <li>
                     <a class="menu-links" href="#about">About</a>
@@ -33,26 +35,28 @@
                     <a class="menu-links" href="#contact">Contact</a>
                 </li>
                 <li class="menu-links">
-                        <a class="menu-links" href="assets/images/Lisa_Vinson_Resume.pdf" download>Resume</a>
-                    </li>
-            </ul>
-
-            <ul id="nav-mobile" class="sidenav">
-                <li>
-                    <a class="menu-links" href="#about">About</a>
-                </li>
-                <li class="menu-links">
-                    <a class="menu-links" href="#projects">Projects</a>
-                </li>
-                <li class="menu-links">
-                    <a class="menu-links" href="#contact">Contact</a>
+                    <a class="menu-links" href="assets/images/Lisa_Vinson_Resume.pdf" download>Resume</a>
                 </li>
             </ul>
-            <a href="#" data-target="nav-mobile" class="sidenav-trigger">
-                <i class="material-icons">menu</i>
-            </a>
         </div>
     </nav>
+
+    <ul class="sidenav"  id="nav-mobile">
+        <li>
+            <a class="menu-links" href="#about">About</a>
+        </li>
+        <li class="menu-links">
+            <a class="menu-links" href="#projects">Projects</a>
+        </li>
+        <li class="menu-links">
+            <a class="menu-links" href="#contact">Contact</a>
+        </li>
+        <li class="menu-links">
+            <a class="menu-links" href="assets/images/Lisa_Vinson_Resume.pdf" download>Resume</a>
+        </li>
+    </ul>
+
+
     <!-- Navbar End -->
 
     <!-- Panel 1 - Header Image with Name -->
@@ -80,32 +84,33 @@
                 </div>
                 <div class="row panel2Row">
                     <div class="col s12 m6 aboutLeftCol">
-                        <p class="flow-text about-text-left">I am a full stack developer who is always learning something new: whether it's a new framework or a new guitar chord. While my background in teaching
-                            and HR may seem very different from programming on the surface, my passion for all three have
-                            been rooted in a desire to help people figure out streamlined solutions to complex problems.
-                            As I continue to grow my knowledge, I am open to software development opportunities in the
-                            Orlando, FL area that emphasize a range of programming tools to create meaningful software for
-                            users.
+                        <p class="flow-text about-text-left">I am a full stack developer who is always learning something new: whether it's a new framework or
+                            a new guitar chord. While my background in teaching and HR may seem very different from programming
+                            on the surface, my passion for all three have been rooted in a desire to help people figure out
+                            streamlined solutions to complex problems. As I continue to grow my knowledge, I am open to software
+                            development opportunities in the Orlando, FL area that emphasize a range of programming tools
+                            to create meaningful software for users.
                         </p>
                     </div>
                     <div class="col s12 m6 aboutRightCol">
                         <img class="responsive-img z-depth-1" src="assets/images/photographer-image.jpg" alt="Lisa taking a photograph" id="about-image">
                         <p class="flow-text about-text-right">In my free time, I enjoy my fair share of both outdoor and indoor activities. I love to hike, kayak,
-                            and take road trips to any place with delicious food. I am also a (very) amateur guitar player, photographer and newly converted anime fan.</p>
+                            and take road trips to any place with delicious food. I am also a (very) amateur guitar player,
+                            photographer and newly converted anime fan.</p>
                     </div>
-                    
+
 
                 </div>
                 <div class="divider"></div>
                 <br>
-              
+
             </div>
         </div>
 
 
         <!-- Panel 3 - Project - Row 1  -->
         <div class="section panel3">
-            <div class="container">
+            <div class="container" id="panel3Container">
 
                 <div class="section-header">
                     <h1 id="projects">Projects</h1>
@@ -140,10 +145,9 @@
                                     <ul class="collection">
                                         <li class="collection-item">HTML &amp; CSS</li>
                                         <li class="collection-item">Bootstrap</li>
-                                        <li class="collection-item">JavaScript</li>
+                                        <li class="collection-item">JavaScript &amp; Node.js</li>
                                         <li class="collection-item">MongoDB with Mongoose</li>
                                         <li class="collection-item">React.js</li>
-                                        <li class="collection-item">Node.js</li>
                                         <li class="collection-item">Express</li>
                                     </ul>
 
@@ -162,8 +166,9 @@
                                     <i class="material-icons right">more_vert</i>
                                 </span>
                                 <p class="card-front-text">
-                                    Full stack application that allows users to create an account and add detailed learning goals using the S.M.A.R.T. model of goal setting, schedule study sessions and add resources for review all while viewing their study schedule in a 
-                                    monthly, weekly, or daily calendar </p>
+                                    Full stack application that allows users to create an account and add detailed learning goals using the S.M.A.R.T. model
+                                    of goal setting, schedule study sessions and add resources for review all while viewing
+                                    their study schedule in a monthly, weekly, or daily calendar </p>
                                 <div class="app-card-buttons">
                                     <a href="https://vast-temple-43715.herokuapp.com/" target="_blank" class="orange darken-2 btn websiteBtn">View Site</a>
                                     <a href="https://github.com/LiVinson/study-smart" target="_blank" class="grey lighten-2 btn repoBtn">View Repo</a>
@@ -178,10 +183,9 @@
                                     <ul class="collection">
                                         <li class="collection-item">React.js</li>
                                         <li class="collection-item">React-Bootstrap</li>
-                                        <li class="collection-item">JavaScript</li>
+                                        <li class="collection-item">JavaScript &amp; Node.js</li>
                                         <li class="collection-item">MongoDB with Mongoose</li>
                                         <li class="collection-item">Express</li>
-                                        <li class="collection-item">Node.js</li>
                                         <li class="collection-item">Passport.js</li>
                                     </ul>
 
@@ -216,10 +220,9 @@
                                     <ul class="collection">
                                         <li class="collection-item">HTML &amp; CSS</li>
                                         <li class="collection-item">Bootstrap</li>
-                                        <li class="collection-item">JavaScript</li>
+                                        <li class="collection-item">JavaScript &amp; Node.js</li>
                                         <li class="collection-item">jQuery</li>
                                         <li class="collection-item">Express</li>
-                                        <li class="collection-item">Node.js</li>
                                     </ul>
 
                             </div>
@@ -232,7 +235,7 @@
         </div>
 
         <div class="section panel4">
-            <div class="container">
+            <div class="container" id="panel4Container">
 
                 <div class="row panel4Row">
                     <!-- CARD 4 -->
@@ -264,7 +267,9 @@
                                         <li class="collection-item">JavaScript</li>
                                         <li class="collection-item">MySQL</li>
 
-                                        <li class="collection-item"><b>NPM Packages:</b></li>
+                                        <li class="collection-item">
+                                            <b>NPM Packages:</b>
+                                        </li>
                                         <li class="collection-item"> Inquirer</li>
                                         <li class="collection-item"> Console Table</li>
 
@@ -298,11 +303,12 @@
                                 </span>
                                 <p>
                                     <b> Technology Used:</b>
-                                    <ul class="collection">
-                                        <li class="collection-item">HTML &amp; CSS</li>
-                                        <li class="collection-item">JavaScript</li>
-                                        <li class="collection-item">jQuery</li>
-                                    </ul>
+                                </p>
+                                <ul class="collection">
+                                    <li class="collection-item">HTML &amp; CSS</li>
+                                    <li class="collection-item">JavaScript</li>
+                                    <li class="collection-item">jQuery</li>
+                                </ul>
 
                             </div>
                         </div>
@@ -330,7 +336,7 @@
                                     <i class="material-icons right">close</i>
                                 </span>
                                 <p>
-                                    <b> Technology Used:</b>
+                                    <b center> Technology Used:</b>
                                     <ul class="collection">
                                         <li class="collection-item">HTML &amp; CSS</li>
                                         <li class="collection-item">Bootstrap</li>
@@ -374,7 +380,7 @@
                     <div class="col s12 m5 ">
                         <div class="icons">
                             <div class="iconDiv center ">
-                                <a href="https://github.com/LiVinson" target="_blank" >
+                                <a href="https://github.com/LiVinson" target="_blank">
                                     <br>
                                     <img class="github hoverable" src="assets/images/githubicon.png" alt="Github account Link">
                                     <br>
