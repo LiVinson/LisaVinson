@@ -56,26 +56,10 @@ nav {
     color: #00529b;
 }
 
-.typewriter-para {
+.headerText > .subtext {
     margin-top: 15px;
     color: #FC7307;
     font-size: 30px;
-}
-
-#typewriter-text {
-    color: #FC7307;
-    /* font-family: 'Lobster', cursive; */
-}
-
-.carot {
-    border-right: .05em solid;
-    animation: caret 1s steps(1) infinite;
-}
-
-@keyframes caret {
-    50% {
-        border-color: transparent;
-    }
 }
 
 /* ------------------------------------------------------------ */
@@ -114,9 +98,7 @@ h1 {
 }
 
 .aboutRightCol {
-    /* border: solid 1px purple; */
     text-align: justify;
-    /* padding-left:10px; */
 }
 
 .about-text-left {
@@ -146,7 +128,6 @@ h1 {
 
 .panel4 .projectCards {
     border: solid 1px #00529b;
-    /* margin-left:25px; */
 }
 
 .card-title {
