@@ -131,6 +131,11 @@ h1 {
 .panel3 {
     background-color:#FC7307;
     padding-bottom:10px;
+    border: 1px solid green;
+}
+
+#panel3Container, #panel4Container{
+    width: 85%;
 }
 
 #projects{
