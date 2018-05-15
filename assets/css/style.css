@@ -5,6 +5,7 @@
 .center {
     margin: auto;
 }
+
 /* Navbar */
 
 nav {
@@ -12,13 +13,13 @@ nav {
     position: absolute;
     left: 0px;
     top: 0px;
-    background-color:transparent;
-    padding-left:30px;
+    background-color: transparent;
+    padding-left: 30px;
 }
 
 .menu-links {
     color: #00529b;
-    font-size:18px;
+    font-size: 18px;
 }
 
 /* ---------------------------------------------- */
@@ -27,195 +28,203 @@ nav {
 
 .panel1 {
     /* border: solid red 1px; */
-    padding-top:0px;
-    padding-bottom:0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     height: fit-content;
 }
 
-.headerDiv{
-    background: 
-    linear-gradient(
-        rgba(231, 227, 227, 0.85), 
-        rgba(231, 227, 227, 0.85)
-      ),
-    /* url("../images/craig-garner-202-unsplash.jpg"); */
+.headerDiv {
+    background: linear-gradient( rgba(231, 227, 227, 0.85), rgba(231, 227, 227, 0.85)), /* url("../images/craig-garner-202-unsplash.jpg"); */
     url("../images/lukas-blazek-320606-unsplash.jpg");
     height: 100%;
     background-size: cover;
     background-position: center;
-    display:flex;
+    display: flex;
     align-items: center;
 }
 
-.headerText{
-    font-size:40px;
+.headerText {
+    font-size: 40px;
     height: fit-content;
     width: 100%;
 }
 
-.name{
-    font-size:90px;
-    margin-bottom:5px;
+.name {
+    font-size: 90px;
+    margin-bottom: 5px;
     font-family: 'Lobster', cursive;
-    color:  #00529b;
+    color: #00529b;
 }
 
-.typewriter-para{
-    margin-top:15px;
-    color:  #FC7307;
-    font-size:30px;
-
+.typewriter-para {
+    margin-top: 15px;
+    color: #FC7307;
+    font-size: 30px;
 }
 
-#typewriter-text{
-    color:#FC7307;
+#typewriter-text {
+    color: #FC7307;
     /* font-family: 'Lobster', cursive; */
 }
 
 .carot {
     border-right: .05em solid;
     animation: caret 1s steps(1) infinite;
-  }
-  
-  @keyframes caret {
-    50% {
-      border-color: transparent;
-    }
-  }
+}
 
-  /* ------------------------------------------------------------ */
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/* ------------------------------------------------------------ */
+
 /* Main Section Panels */
 
 main {
     /* background-color: #FFFAF0; */
     border-top: solid 15px #FC7307;
-
 }
-.panel2, .panel3, .panel4 .panel5 {
+
+.panel2,
+.panel3,
+.panel4 .panel5 {
     /* border: solid blue 1px; */
-   padding-bottom:0px;
+    padding-bottom: 0px;
 }
 
 h1 {
     font-family: 'Lobster', cursive;
-    color:  #00529b;
-    margin-top:0px;
-    text-align:center;
- 
+    color: #00529b;
+    margin-top: 0px;
+    text-align: center;
 }
 
 /* ----Panel 2 -About----- */
 
-#aboutHeader{
-    color:#FC7307;
-}
-.aboutLeftCol{
-    /* border: solid 1px purple; */
-    text-align: justify;
-    margin-top:0;
+#aboutHeader {
+    color: #FC7307;
 }
 
-.aboutRightCol{
+.aboutLeftCol {
+    /* border: solid 1px purple; */
+    text-align: justify;
+    margin-top: 0;
+}
+
+.aboutRightCol {
     /* border: solid 1px purple; */
     text-align: justify;
     /* padding-left:10px; */
 }
 
-
-.about-text-left{
-    margin-top:0px;
+.about-text-left {
+    margin-top: 0px;
 }
 
 /* ----Panel 3 and 4 -Projects ------ */
 
 .panel3 {
-    background-color:#FC7307;
-    padding-bottom:10px;
+    background-color: #FC7307;
+    padding-bottom: 10px;
     border: 1px solid green;
 }
 
-#panel3Container, #panel4Container{
+#panel3Container,
+#panel4Container {
     width: 85%;
 }
 
-#projects{
-    color:lightgray;
+#projects {
+    color: lightgray;
 }
 
-#studySmartImg{
+#studySmartImg {
     border-bottom: solid 2px #00529b;
 }
 
-.panel4 .projectCards{
-    border:solid 1px #00529b;
+.panel4 .projectCards {
+    border: solid 1px #00529b;
     /* margin-left:25px; */
 }
 
-.card-title{
+.card-title {
     color: #00529b;
-    text-align:center;
+    text-align: center;
 }
 
-.card-reveal{
-    overflow:hidden!important;
-    color: #00529b;
-}
-
-.app-card-buttons{
-    margin-top:5px;
-}
-.repoBtn{
+.card-reveal {
+    overflow: hidden !important;
     color: #00529b;
 }
 
-.collection .collection-item{
-    border-bottom:1px solid #FC7307;
+.app-card-buttons {
+    margin-top: 5px;
 }
 
-.collection{
-    border:1px solid #FC7307;
+.repoBtn {
+    color: #00529b;
+}
+
+.collection .collection-item {
+    border-bottom: 1px solid #FC7307;
+}
+
+.collection {
+    border: 1px solid #FC7307;
 }
 
 /* ----Panel 5 -Contact ------ */
 
 .panel5 {
-    background-color:lightgray; 
-    
+    background-color: lightgray;
 }
 
-.contact-text{
-    margin-top:0px;
+.panel5Row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.contact-info{
-    color:#00529b;
+.contact-text {
+    margin-top: 0px;
+}
+
+.contact-info {
+    color: #00529b;
     font-weight: bold;
 }
-.icons{
-    display:flex;
-    justify-content:space-between;
-    margin:auto;
-    flex-direction:column;
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
 }
 
-.iconDiv{
-    display:flex;
-    justify-content:center;
-    flex-direction:column;
-    color:#00529b;
+.iconCol {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.iconDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #00529b;
 }
 
 .github,
-.linkedin, 
+.linkedin,
 .email {
     width: 64px;
     height: 64px;
 }
 
-
-
-.page-footer{
-    background-color:#00529b;
+.page-footer {
+    background-color: #00529b;
     border-top: solid 10px #FC7307;
-    margin-top:50px;
+    margin-top: 50px;
 }
